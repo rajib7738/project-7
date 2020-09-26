@@ -1,0 +1,112 @@
+@media only screen and (max-width: 991px) {
+	header{
+		padding: 0 20px;
+	}
+	.menu-toggle{
+		display: block;
+	}
+	header nav{
+		position: absolute;
+		width: 100%;
+		height: calc(100vh-50px);
+		background: #333;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+		z-index: 100;
+	}
+	header nav.active{
+		left: 0;
+	}
+	header nav ul{
+		display: block;
+		text-align: center;
+	}
+	header nav ul li a{
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+	.slider {
+    	padding: 30px 60px;   
+	}
+	.footer-middle::after {
+	    font-size: 18px;
+	    top: 55px;
+	    right: 13px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.banner h1 {
+   	 	font-size: 43px;
+    	margin-bottom: 65px;
+	}
+	.footer-items {
+	    display: flex;
+	    justify-content: center;
+	}
+	.footer-last{
+		float: none;
+	}
+	.footer-middle h3, .footer-last h3 {
+		text-align: center;
+		margin-top: 53px;
+	}
+	.slider {
+    	padding: 20px 11px;
+	}
+	.itro-items {
+    	margin-top: 30px;
+	}
+	.feature-item-wrap {
+    	text-align: center;
+    	float: none;
+    	margin-top: 40px;
+	}
+	
+	.itro-heading h2 {
+    	font-size: 35px;
+	}
+	.feature-heading h2{
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.banner h1 {
+   	 	font-size: 35px;
+	}
+	.banner p {
+   	 	font-size: 14px;
+	}
+	.itro-heading h2 {
+    	font-size: 30px;
+	}
+	.itro-heading p {
+    	font-size: 14px;
+	}
+	.email-submit {
+    	display: block;
+	}
+	.search-submit-btn{
+		margin-left: 0;
+	}
+	.email-form{
+		margin-bottom: 30px;
+	}
+	
+}
+@media only screen and (max-width: 420px) {
+	.itro-heading h2 {
+    	font-size: 25px;
+	}
+	.banner p {
+   	 	font-size: 12px;
+   	 	margin: 65px 0;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.banner h1 {
+    	font-size: 30px;
+    	font-weight: 400;
+	}
+}
