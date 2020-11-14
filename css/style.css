@@ -186,11 +186,10 @@ header nav ul li a:hover::after{
 	box-shadow:  7px 7px 59px #e3e3e3, 
              -7px -7px 59px #ffffff;
 	padding: 40px;
-	border:1px solid #fff;
+	border:1px solid #304FFE;
 }
 .itro-items i:hover{
 	color: #304FFE;
-	border:1px solid #304FFE;
 	overflow: hidden;
 }
 .itro-items h3{
